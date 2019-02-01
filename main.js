@@ -2,6 +2,7 @@ $(document).ready(function(){
 var flag=0;
   $("#add").click(function(){
       var text=$("#addtext").val();
+      $("#addtext").val('');
      var pre= $(".list").html();
      if (text!== ""){
         $(".list").fadeIn(3000).html(pre+ "<li>"+ text + " <i class='fas fa-trash-alt'></i></li>");
