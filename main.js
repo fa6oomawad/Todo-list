@@ -10,7 +10,7 @@ var flag=0;
           $(this).css("text-decoration","line-through") ;
           $(this).css("background-color","rgba(158, 158, 161, 0.712)");
           flag=1;
-          console.log("his");
+          
       }
       else{
           $(this).css("text-decoration","none") ;
