@@ -26,11 +26,20 @@ var flag=0;
   $(".list li i").click(function(){
     $(this).parent().remove();
   });
+
+
+
+
+
   });
 
 
  
-
+  $(".githubCode i").mouseover(function(){
+    console.log('ollll');
+    $('.githubCode p').fadeIn(3000).css("right","8%");
+    $('.githubCode p').css("display","inline");
+    })
 
 
 })
